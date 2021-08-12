@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta data tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- devicons 2.0 from http://konpa.github.io/devicon/ -->
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <link rel="icon" type="image/png" href="images/Portfolio_favicon.png">
+    <title>Welcome! | Ahsan Haleem Portfolio</title>
+</head>
+
+<body class="bg-white">
+    <!-- Header -->
+    <Header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <!--Personal brand logo-->
+                <a class="navbar-brand text-white " href="#">
+                    <img src="/images/Portfolio_logo1.png" alt="" width="40" height="40"
+                        class="d-inline-block align-text-center">
+                    Ahsan Haleem
+                </a>
+                <!--Collapsable toggle for responsiveness-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--Nav items-->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active  px-lg-4 rounded" href="#">About me</a>
+                        <a class="nav-link active px-lg-4 rounded" href="#">Projects</a>
+                        <a class="nav-link active px-lg-4 rounded" href="#">Resume</a>
+                        <a class="nav-link active px-lg-4 rounded" href="#">Contact</a>
+                        <!-- <a href="http://"></a>
+                        <a href="mailto:ahsanhaleem999@gmail.com">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 24"
+                                style="enable-background:new 0 0 30 24;" xml:space="preserve" class="icon">
+                                <g>
+                                    <path
+                                        d="M15,13L7.1,7.1c0-0.5,0.4-1,1-1h13.8c0.5,0,1,0.4,1,1L15,13z M15,14.8l7.9-5.9v8.1c0,0.5-0.4,1-1,1H8.1c-0.5,0-1-0.4-1-1 V8.8L15,14.8z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </a> -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </Header>
+
+    <!-- Main section -->
+    <section class="main py-5">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col py-3 intro">
+                    <article>
+                        <h1>Hi 👋 Welcome!</h1>
+                        <p class="py-4">I am a software developer, a web developer and a Computer Science student at
+                            Carleton University.<br>
+                            Open for internships and jobs opportunities.</p>
+                    </article>
+                    <input type="button" value="Projects" class="bt1 mt-2">
+                    <input type="button" value="Contact" class="bt2 mt-2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <!-- Need to change this section into less js code -->
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col intro">
+                    <h1>About Me</h1>
+                    <div class="Education">
+                        <h2>Education</h2>
+                        <h3><img src="images/carleton_logo.png" class="carleton_logo"
+                                alt="Carleton University logo">Carleton University</h3>
+                        <h4>Bachelor of Computer Science</h4>
+                        <h5>Third-year student</h5>
+                    </div>
+                    <div class="Programming_Languages">
+                        <h2>Programming Languages</h2>
+                        <ul class="list-inline dev-icons">
+                            <!-- c++ -->
+                            <a class="imageLink" title="C++" href="https://www.w3schools.com/cpp/">
+                                <li class="list-inline-item">
+                                    <i class="devicon-cplusplus-plain"></i>
+                                    <p class="prog_text">C++</p>
+                                </li>
+                            </a>
+                            <!-- c -->
+                            <a class="imageLink" title="C" href="https://www.programiz.com/c-programming">
+                                <li class="list-inline-item">
+                                    <i class="devicon-c-plain"></i>
+                                    <p class="prog_text">C</p>
+                                </li>
+                            </a>
+                            <!-- html5 -->
+                            <a class="imageLink" title="HTML5" href="https://www.w3schools.com/html/">
+                                <li class="list-inline-item">
+                                    <i class="devicon-html5-plain"></i>
+                                    <p class="prog_text">HTML5</p>
+                                </li>
+                            </a>
+                            <!-- css3 -->
+                            <a class="imageLink" title="CSS3" href="https://www.w3schools.com/css/">
+                                <li class="list-inline-item">
+                                    <i class="devicon-css3-plain"></i>
+                                    <p class="prog_text">CSS3</p>
+                                </li>
+                            </a>
+                             <!-- bootstrat -->
+                             <a class="imageLink" title="Bootstrap" href="https://getbootstrap.com/">
+                                <li class="list-inline-item">
+                                    <i class="devicon-bootstrap-plain"></i>
+                                    <p class="prog_text">Bootstrap</p>
+                                </li>
+                            </a>
+                            <!-- javascript -->
+                            <a class="imageLink" title="JavaScript" href="https://www.w3schools.com/js/">
+                                <li class="list-inline-item">
+                                    <i class="devicon-javascript-plain"></i>
+                                    <p class="prog_text">JavaScript</p>
+                                </li>
+                            </a>
+                            <!-- python -->
+                            <a class="imageLink" title="Python" href="https://www.python.org">
+                                <li class="list-inline-item">
+                                    <i class="devicon-python-plain"></i>
+                                    <p class="prog_text">Python</p>
+                                </li>
+                            </a>
+                            <!-- java -->
+                            <a class="imageLink" title="Java" href="https://docs.oracle.com/en/java/javase/11/">
+                                <li class="list-inline-item">
+                                    <i class="devicon-java-plain"></i>
+                                    <p class="prog_text">Java</p>
+                                </li>
+                            </a>
+                            <!-- sql -->
+                            <a class="imageLink" title="SQL" href="https://www.w3schools.com/sql/">
+                                <li class="list-inline-item">
+                                    <img src="images/sql-logo.png" class="sql_logo"
+                                    alt="SQL logo">
+                                    <p class="prog_text">SQL</p>
+                                </li>
+                            </a>
+                            <!-- nodejs -->
+                            <!-- <a class="imageLink" title="NodeJS" href="https://nodejs.org/en/">
+                                <li class="list-inline-item">
+                                    <i class="devicon-nodejs-plain"></i>
+                                    <p class="prog_text">Node.js</p>
+                                </li>
+                            </a> -->
+                            <!-- expressjs -->
+                            <!-- <a class="imageLink" title="ExpressJS" href="https://www.tutorialspoint.com/expressjs/index.htm">
+                                <li class="list-inline-item">
+                                    <i class="devicon-express-original"></i>
+                                    <p class="prog_text">Express.js</p>
+                                </li>
+                            </a> -->
+                            <!-- prolog -->
+                            <a class="imageLink" title="Prolog" href="https://readthedocs.org/projects/prolog/downloads/pdf/latest/">
+                                <li class="list-inline-item">
+                                    <img src="images/prolog-logo.svg" class="prolog_logo"
+                                    alt="Prolog logo">
+                                    <p class="prog_text">Prolog</p>
+                                </li>
+                            </a>
+                            <!-- scheme -->
+                            <a class="imageLink" title="Scheme" href="https://docs.racket-lang.org/r6rs/index.html">
+                                <li class="list-inline-item">
+                                    <img src="images/racket-logo.svg" class="scheme_logo"
+                                    alt="Scheme logo">
+                                    <p class="prog_text">Scheme</p>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="Technical tools">
+                        <h2 class="less-gap">Operating Systems and Developer Tools</h2>
+                        <ul class="list-inline dev-icons">
+                            <!-- windows -->
+                            <a class="imageLink" title="Windows" href="https://www.microsoft.com/windows">
+                                <li class="list-inline-item">
+                                    <i class="devicon-windows8-original"></i>
+                                    <p class="prog_text">Windows</p>
+                                </li>
+                            </a>
+                            <!-- linux -->
+                            <a class="imageLink" title="Linux" href="https://www.kernel.org/doc/html/latest/">
+                                <li class="list-inline-item">
+                                    <i class="devicon-linux-plain"></i>
+                                    <p class="prog_text">Linux</p>
+                                </li>
+                            </a>
+                            <!-- apple -->
+                            <a class="imageLink" title="macOS" href="https://www.apple.com/macos/">
+                                <li class="list-inline-item">
+                                    <i class="devicon-apple-original"></i>
+                                    <p class="prog_text">MacOS</p>
+                                </li>
+                            </a>
+                            <!-- Oracle VM Virtualbox -->
+                            <a class="imageLink" title="Oracle VM Virtualbox" href="https://www.virtualbox.org/">
+                                <li class="list-inline-item">
+                                    <img src="images/vm-logo.svg" class="vm_logo"
+                                    alt="Oracle VM Virtualbox logo">
+                                    <p class="prog_text">Virtual Machine</p>
+                                </li>
+                            </a>
+                            <!-- Visual Studio Code -->
+                            <a class="imageLink" title="Visual Studio Code" href="https://code.visualstudio.com">
+                                <li class="list-inline-item">
+                                    <img src="images/visual_studio_code_logo.svg" class="vs_code_logo"
+                                    alt="Visual Studio Code logo">
+                                    <p class="prog_text">VS Code</p>
+                                </li>
+                            </a>
+                            <!-- intellij -->
+                            <a class="imageLink" title="IntelliJ" href="https://git-scm.com">
+                                <li class="list-inline-item">
+                                    <img src="images/intellij-idea-logo.png" class="intellij-logo"
+                                    alt="IntelliJ logo">
+                                    <p class="prog_text">IntelliJ</p>
+                                </li>
+                            </a>
+                            <!-- atom -->
+                            <a class="imageLink" title="macOS" href="https://atom.io/">
+                                <li class="list-inline-item">
+                                    <i class="devicon-atom-original"></i>
+                                    <p class="prog_text">Atom</p>
+                                </li>
+                            </a>
+                            <!-- notepad++ -->
+                            <a class="imageLink" title="Notepad++" href="https://notepad-plus-plus.org/">
+                                <li class="list-inline-item">
+                                    <img src="images/notepad_logo.svg" class="notepad-logo"
+                                    alt="Notepad++ logo">
+                                    <p class="prog_text">Notepad++</p>
+                                </li>
+                            </a>
+                            <!-- powershell -->
+                            <a class="imageLink" title="powershell" href="https://docs.microsoft.com/en-us/powershell/">
+                                <li class="list-inline-item">
+                                    <img src="images/powershell-logo.png" class="powershell-logo"
+                                    alt="powershell-logo">
+                                    <p class="prog_text">PowerShell</p>
+                                </li>
+                            </a>
+                            <!-- vim -->
+                            <a class="imageLink" title="Vim" href="https://www.vim.org/">
+                                <li class="list-inline-item">
+                                    <i class="devicon-vim-plain"></i>
+                                    <p class="prog_text">Vim</p>
+                                </li>
+                            </a>
+                            <!-- GDB Debugger -->
+                            <a class="imageLink" title="GDB" href="https://www.gnu.org/software/gdb/">
+                                <li class="list-inline-item">
+                                    <img src="images/GDB-logo.svg" class="GDB-logo"
+                                    alt="GDB-logo">
+                                    <p class="prog_text">GDB Debugger</p>
+                                </li>
+                            </a>
+                            <!-- git -->
+                            <a class="imageLink" title="Git" href="https://git-scm.com">
+                                <li class="list-inline-item">
+                                    <i class="devicon-git-plain"></i>
+                                    <p class="prog_text">Git</p>
+                                </li>
+                            </a>
+                            <!-- github -->
+                            <a class="imageLink" title="GitHub" href="https://github.com/">
+                                <li class="list-inline-item">
+                                    <i class="devicon-github-plain"></i>
+                                    <p class="prog_text">GitHub</p>
+                                </li>
+                            </a>
+                            <!-- chrome devtools -->
+                            <a class="imageLink" title="Chrome DevTools" href="https://developer.chrome.com/docs/devtools/">
+                                <li class="list-inline-item">
+                                    <i class="devicon-chrome-plain"></i>
+                                    <p class="prog_text">Chrome Devtools</p>
+                                </li>
+                            </a>
+                            <!-- ClickUp -->
+                            <a class="imageLink" title="ClickUp" href="https://clickup.com/">
+                                <li class="list-inline-item">
+                                    <img src="images/Clickup-Logo.png" class="Clickup-logo"
+                                    alt="Clickup-logo">
+                                    <p class="prog_text">ClickUp (PM)</p>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>    
+                    <div class="Technical tools">
+                        <h2 class="less-gap">Other Tools</h2>
+                        <ul class="list-inline dev-icons">
+                            <!-- Excel -->
+                            <a class="imageLink" title="Excel" href="https://www.microsoft.com/en-ca/microsoft-365/microsoft-office?rtc=1">
+                                <li class="list-inline-item">
+                                    <img src="images/excel-logo.png" class="excel-logo"
+                                    alt="excel-logo">
+                                    <p class="prog_text">Excel</p>
+                                </li>
+                            </a>
+                            <!-- Word -->
+                            <a class="imageLink" title="Word" href="https://www.microsoft.com/en-ca/microsoft-365/microsoft-office?rtc=1">
+                                <li class="list-inline-item">
+                                    <img src="images/word-logo.svg" class="word-logo"
+                                    alt="word-logo">
+                                    <p class="prog_text">Word</p>
+                                </li>
+                            </a>
+                            <!-- PowerPoint -->
+                            <a class="imageLink" title="PowerPoint" href="https://www.microsoft.com/en-ca/microsoft-365/microsoft-office?rtc=1">
+                                <li class="list-inline-item">
+                                    <img src="images/powerpoint-logo.svg" class="powerpoint-logo"
+                                    alt="powerpoint-logo">
+                                    <p class="prog_text">PowerPoint</p>
+                                </li>
+                            </a>
+                            <!-- Outlook -->
+                            <a class="imageLink" title="Outlook" href="https://www.microsoft.com/en-ca/microsoft-365/microsoft-office?rtc=1">
+                                <li class="list-inline-item">
+                                    <img src="images/outlook-logo.svg" class="outlook-logo"
+                                    alt="outlook-logo">
+                                    <p class="prog_text">Outlook</p>
+                                </li>
+                            </a>
+                            <!-- OneDrive -->
+                            <a class="imageLink" title="OneDrive" href="https://www.microsoft.com/en-ca/microsoft-365/microsoft-office?rtc=1">
+                                <li class="list-inline-item">
+                                    <img src="images/OneDrive-logo.svg" class="onedrive-logo"
+                                    alt="onedrive-logo">
+                                    <p class="prog_text">OneDrive</p>
+                                </li>
+                            </a>
+                            <!-- Teams -->
+                            <a class="imageLink" title="Teams" href="https://www.microsoft.com/en-ca/microsoft-365/microsoft-office?rtc=1">
+                                <li class="list-inline-item">
+                                    <img src="images/teams-logo.svg" class="teams-logo"
+                                    alt="teams-logo">
+                                    <p class="prog_text">Teams</p>
+                                </li>
+                            </a>
+                            <!-- Calendar -->
+                            <a class="imageLink" title="Calendar" href="https://www.microsoft.com/en-ca/microsoft-365/microsoft-office?rtc=1">
+                                <li class="list-inline-item">
+                                    <img src="images/calendar-logo.svg" class="calendar-logo"
+                                    alt="calendar-logo">
+                                    <p class="prog_text">Calendar</p>
+                                </li>
+                            </a>
+                            <!-- Canva -->
+                            <a class="imageLink" title="Canva" href="https://www.canva.com/">
+                                <li class="list-inline-item">
+                                    <img src="images/canva-logo.svg" class="canva-logo"
+                                    alt="canva-logo">
+                                    <p class="prog_text">Canva</p>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                    <!-- <div class="Technical tools">
+                        <h2 class="less-gap">Online Courses</h2>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <ul class="list-inline dev-icons">
+                                        <!-- Completed courses ->
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <ul class="list-inline dev-icons">
+                                        <!-- Courses in Progression ->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white bg-dark pt-5 ">
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"> </script>
+</body>
+
+</html>
