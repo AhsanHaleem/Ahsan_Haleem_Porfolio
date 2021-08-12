@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar section */
+.nav-link{
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    background-color: rgb(83, 83, 83);
+}
+.navbar-brand{
+    font-size: 1.75em;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Main section */
+
+.main {
+    height: 100%;
+    margin-bottom: 2rem;
+    background: url(images/Background_img.jpg) rgba(0, 0, 0, 0.6);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+
+}
+.main h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.main p{
+    font-size: 1.55rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.main .bt1{
+    height: 50px;
+    width: 130px;
+    margin-right: 15px;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.main .bt1:hover{
+    background-color: white;
+    color: rgb(0, 110, 255);
+    transition: 0.5s;
+}
+.main .bt2{
+    height: 50px;
+    width: 130px;
+    margin-right: 15px;
+    background-color: white;
+    color: rgb(0, 110, 255);
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.main .bt2:hover{
+    background-color: rgb(0, 110, 255);
+    color: white;
+    transition: 0.5s;
+}
+
+/* About section */
+
+.about {
+    height: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #fff8ec;
+}
+.about h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.about h2{    
+    font-size: 2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    padding-top: 1.25rem;
+}
+.about h3{
+    font-size: 1.75rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+.carleton_logo{
+    width: 60px;
+    height: 37.5px;
+    margin-left: -1rem;
+    margin-right: -0.5rem;
+}
+.about h4{
+    margin-left: 2.65rem;
+    font-weight: 600;
+}
+.about h5{
+    margin-left: 2.65rem;
+    margin-top: 1rem;
+}
+
+/* About Programming Languages section */
+.dev-icons{
+    font-size: 2rem;
+}
+.list-inline{
+    list-style: none;
+}
+.list-inline-item{
+    color: black;
+    padding-right: 0.25rem;
+    text-decoration: none;
+    text-align: center;
+}
+.imageLink{
+    text-decoration: none;
+}
+.sql_logo{
+    width: 35px;
+    height: 37px;
+}
+.prolog_logo{
+    width: 40px;
+    height: 40px;
+}
+.scheme_logo{
+    width: 32px;
+    height: 32px;
+}
+.prog_text{
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* About OS and Softwares section */
+.less-gap{
+    font-size: 2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    margin-top: -1rem;
+}
+.vm_logo{
+    width: 36px;
+    height: 36px;
+}
+.vs_code_logo{
+    width: 32px;
+    height: 32px;
+}
+.intellij-logo{
+    width: 40px;
+    height: 40px;
+}
+.notepad-logo{
+    width: 40px;
+    height: 40px;
+}
+.powershell-logo{
+    width: 36px;
+    height: 36px;
+}
+.GDB-logo{
+    width:  85px;
+    height: 55px;
+}
+.Clickup-logo{
+    width:  34px;
+    height: 40px;
+}
+.excel-logo{
+    width:  37px;
+    height: 35px;
+}
+.word-logo{
+    width:  33px;
+    height: 32px;
+}
+.powerpoint-logo{
+    width:  33px;
+    height: 32px;
+}
+.outlook-logo{
+    width:  36px;
+    height: 32px;
+}
+.onedrive-logo{
+    width:  38px;
+    height: 38px;
+}
+.teams-logo{
+    width:  38px;
+    height: 38px;
+}
+.calendar-logo{
+    width:  35px;
+    height: 35px;
+}
+.canva-logo{
+    width:  35px;
+    height: 35px;
+}
+
+/* Footer */
+.footer{
+    text-align: center;
+}
